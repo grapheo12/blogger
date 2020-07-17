@@ -1,0 +1,65 @@
+theme = "hugo-theme-codex" 
+
+title = "grapheo12's Blog"
+languageCode = "en-us"
+baseURL = "https://grapheo12.github.io/"
+copyright = "© 2020"
+
+# Add your Disqus shortname here.
+# disqusShortname = ""
+
+# Add your Google Analytics identifier: UA-XXXXXXXX-X
+# googleAnalytics = "" 
+
+# Optional params
+[params]
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "Jan 2 2006"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  twitter = "https://twitter.com/grapheo12"
+  github = "https://github.com/grapheo12"
+  email = "mailto:smishra99.iitkgp@gmail.com"
+  facebook = "https://facebook.com/grapheo12"
+  # gitlab = "https://gitlab.com/<your handle>"
+  # instagram = "https://instagram.com/<your handle>"
+  # linkedin = "https://www.linkedin.com/in/shubham-mishra-195ab1171/"
+  youtube = "https://www.youtube.com/channel/UCTTenSr3wGL7JLVG8_tQZrw"
+  
+  # Titles for your icons (shown as tooltips), and also their display order.
+  # Currently, these icons are supported: 
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
+  iconTitles = ["GitHub", "LinkedIn", "YouTube"]
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "tech-blog"
+  name = "tech-blog"
+  title = "Tech Blog"
+  url = "/blog/tech"
+
+[[menu.main]]
+  identifier = "literature-blog"
+  name = "literature-blog"
+  title = "Life, Literature and More"
+  url = "/blog/lit"
+
