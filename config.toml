@@ -6,10 +6,10 @@ baseURL = "https://grapheo12.github.io/"
 copyright = "© 2020"
 
 # Add your Disqus shortname here.
-# disqusShortname = ""
+# disqusShortname = "grapheo12-github-io"
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-# googleAnalytics = "" 
+# googleAnalytics = "UA-172922557-1" 
 
 # Optional params
 [params]

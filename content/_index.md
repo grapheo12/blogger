@@ -16,7 +16,7 @@ It has stuck since then.
 
 Some info about me in a concise format:
 
-```json
+{{< highlight json >}}
 
 {
    "Hometown": "Suri, Birbhum, West Bengal",
@@ -50,7 +50,8 @@ Some info about me in a concise format:
        "Tools": ["Git", "Docker", "Postman"]
    }
 }
-```
+
+{{< /highlight >}}
 
 [Read my Resume here.](https://drive.google.com/file/d/1SRLOWzDTIrn15jEYsa1CRluOXcNGssvr/view?usp=sharing)
 
